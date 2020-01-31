@@ -7,11 +7,11 @@
 </h3>
 
 <p align = "center">
-<a href="https://www.codefactor.io/repository/github/hugo-marcelo/challenge-gympoint"><img src="https://www.codefactor.io/repository/github/hugo-marcelo/challenge-gympoint/badge" alt="CodeFactor" /></a>
-<img alt = "Última confirmação do Github" src = "https://img.shields.io/github/last-commit/hugo-marcelo/challenge-gympoint">
-<img alt = "Idioma principal do GitHub" src = "https://img.shields.io/github/languages/top/hugo-marcelo/challenge-gympoint">
-<img alt = "GitHub" src = "https://img.shields.io/github/license/hugo-marcelo/challenge-gympoint.svg">
-<a href="https://www.codacy.com/manual/hugo-marcelo/challenge-gympoint?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hugo-marcelo/challenge-gympoint&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/147d0b2836734c79b7ee5ea035f065b4"/></a>
+<a href="https://www.codefactor.io/repository/github/hugo-marcelo/gympoint"><img src="https://www.codefactor.io/repository/github/hugo-marcelo/gympoint/badge" alt="CodeFactor" /></a>
+<img alt = "Última confirmação do Github" src = "https://img.shields.io/github/last-commit/hugo-marcelo/gympoint">
+<img alt = "Idioma principal do GitHub" src = "https://img.shields.io/github/languages/top/hugo-marcelo/gympoint">
+<img alt = "GitHub" src = "https://img.shields.io/github/license/hugo-marcelo/gympoint.svg">
+<a href="https://www.codacy.com/manual/hugo-marcelo/gympoint?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hugo-marcelo/gympoint&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/147d0b2836734c79b7ee5ea035f065b4"/></a>
 </p>  
 
 ## :gear:  Back-end
