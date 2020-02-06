@@ -1,34 +1,32 @@
-﻿## Projeto
-Gympoint - backend
-- Gestão de planos
-- Gestão de matrículas
-- Checkins
-- Pedido de auxílio
+﻿### :information_source: Instruções Back-end
 
-## Instalação
+```bash
+# instalar PostgreSQL - Banco de dados principal
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11
 
-Postgres - Banco de dados principal
-`docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres`
+# instalar Redis - Banco de dados para filas
+docker run --name redis -p 6379:6379 -d -t redis:alpine
 
-Redis - Banco de dados para filas
-`docker run --name redis -p 6379:6379 -d -t redis:alpine`
+# nome do banco de dados Posgres
+gympoint
 
-Nome do banco de dados Postgres
-`gympoint`
+# instalar os pacotes e dependências
+yarn
+```
 
-Sequelize
-`yarn sequelize db:migrate`
+Faça uma cópia do arquivo .env.example, renomeie para .env e altere as variáveis de acordo com o seu ambiente.
 
-Seed
-`yarn sequelize db:seed:all`
+```bash
+# criar estrutura do banco de dados Postgres
+yarn sequelize db:migrate
 
-## **Execução**
+# povoar o banco de dados
+yarn sequelize db:seed:all
 
-Instalar os pacotes e dependências
-`yarn`
+# iniciar servidor da aplicação
+yarn dev
 
-Iniciar servidor da aplicação
-`yarn dev`
+# em outro terminal iniciar servidor de email
+yarn queue
 
-Iniciar servidor de email em outro terminal
-`yarn queue`
+```
