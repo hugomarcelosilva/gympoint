@@ -20,10 +20,10 @@ routes.get('/students/:id/checkins', CheckinController.index);
 
 routes.get('/help-orders', HelpOrderController.index);
 routes.post('/help-orders/:id/answer', HelpOrderController.store);
-routes.delete('/help-orders/:help_order_id', HelpOrderController.delete);
 
-routes.post('/students/:id/help-orders', StudentHelpOrderController.store);
 routes.get('/students/:id/help-orders', StudentHelpOrderController.index);
+routes.post('/students/:id/help-orders', StudentHelpOrderController.store);
+routes.delete('/help-orders/:help_order_id', HelpOrderController.delete);
 
 routes.get('/students', StudentController.index);
 
