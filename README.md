@@ -12,13 +12,17 @@
 <img alt = "Idioma principal do GitHub" src = "https://img.shields.io/github/languages/top/hugo-marcelo/gympoint">
 <img alt = "GitHub" src = "https://img.shields.io/github/license/hugo-marcelo/gympoint.svg">
 <a href="https://www.codacy.com/manual/hugo-marcelo/gympoint?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hugo-marcelo/gympoint&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/147d0b2836734c79b7ee5ea035f065b4"/></a>
-</p>  
+</p>
 
 <h3 align="center">
   <a href="https://insomnia.rest/run/?label=GymPoint&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fhugo-marcelo%2Fgympoint%2Fmaster%2Fbackend%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </h3>
 
-## :gear:  Back-end
+## :gear: Back-end
+
+### :information_source: Deploy
+
+- https://gympoint-api-hugo.herokuapp.com
 
 ### :information_source: Instruções Back-end
 
@@ -37,6 +41,7 @@ yarn
 ```
 
 Faça uma cópia do arquivo .env.example, renomeie para .env e altere as variáveis de acordo com o seu ambiente.
+
 ```bash
 # criar estrutura do banco de dados Postgres
 yarn sequelize db:migrate
@@ -51,8 +56,14 @@ yarn dev
 yarn queue
 
 ```
+
 ---
+
 ## :computer: Front-end
+
+### :information_source: Deploy
+
+- https://gympoint-web-hugo.herokuapp.com
 
 ### :information_source: Instruções Front-end
 
@@ -65,9 +76,11 @@ yarn start
 ```
 
 ---
+
 ## :iphone: Mobile
 
 ### :information_source: Instruções Mobile (iOS)
+
 ```bash
 #instalar os pacotes e dependências
 yarn
@@ -77,10 +90,12 @@ yarn ios
 ```
 
 ### :information_source: Instruções Mobile (Android)
+
 ```bash
 #instalar os pacotes e dependências
 yarn
 ```
+
 Alterar a variável baseURL em `/src/services/api.js` colocando o ip local ou do emulador
 
 ```bash
@@ -89,6 +104,7 @@ yarn android
 ```
 
 ### :warning: Troubleshooting
+
 Caso dê erro para encontrar o SDK do Android só criar o arquivo local.properties na pasta /android com o seguinte comando
 `sdk.dir = [caminho do sdk]`
 
@@ -97,11 +113,13 @@ Ex: /Users/admin/Library/Android/sdk
 ```
 
 ---
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+
 ## :clap: Obrigado
 
 [Rocketseat](https://rocketseat.com.br/) pelo bootcamp!
